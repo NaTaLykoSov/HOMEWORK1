@@ -26,18 +26,14 @@
         font-weight: 700;
         line-height: normal;
         }
-.header-text{width: 481px;
+.header-text{width: 550px;
     color: #FFF;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
     line-height: 32px; 
     color: #FFF;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
     margin-top: 32px;
     }
+    .header_allocation{font-weight: bold;}
 .header-button{color: #FFF;
     font-size: 18px;
     font-style: normal;
