@@ -4,7 +4,9 @@
 } 
   body {font-family: "Montserrat", sans-serif;
       }
- 
+.center {
+        padding-left: calc(50% - 720px);
+        padding-right: calc(50% - 720px);} 
   .header{  
     height: 1024px;
     background-image: url(img/fon.jpg);
