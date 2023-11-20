@@ -16,14 +16,36 @@
         text-align: center;
         line-height: 22px;
         width: 343px;} 
-    .header-block{ margin-left: 0;
-    }
+    .header-block{padding: 239px 0 0 0;}
     .header-button{
         margin-top: 32px;
         margin-left: 55px;}
     .game_box{margin-left: 0;
         display: flex;
         flex-direction: column;}
-    .game_picture_img{width: 343px;}        
-
-}
+    .game_picture_img{width: 343px;}
+    .seasons{height: 655px;
+        justify-content: space-between;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0;
+      }pv
+    .seasons_title{ 
+        font-size: 32px;
+       } 
+    .seasons_text{
+    font-size: 14px;
+    line-height: 22px;
+    width: 340px;
+    text-align: center;}
+    .seasons_block{ padding: 0;
+        margin-top: 51px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        width: 343px;}
+    .seasons_video_box{padding: 243px 243px 0;
+            background-image: url(img/video_game_mob.svg);
+            background-repeat: no-repeat;
+            }
+    }
