@@ -74,3 +74,36 @@ switch (monthNumber) {
 default: alert ('Неизвестный месяц');
 break;
 }
+//7
+let evenNumber = prompt('Пожалуйста, введите любое число');
+if (isNaN(evenNumber)){ alert ("Введено не числовое значение");}
+else if (evenNumber % 2 === 0){ alert ("Число четное")}
+else {alert ("Число нечетное")};
+//8
+let clientOS = prompt('Ваша операционная система? 0=iOS или 1=Android');
+
+switch (clientOS) {
+  case '0':
+    console.log('Установите версию приложения для iOS по ссылке');
+    break;
+  case '1':
+    console.log('Установите версию приложения для Android по ссылке');  
+    break;
+  default: console.log ('Не поддерживаемая операционная система');
+    break;  
+}
+//9
+clientOS = prompt('Ваша операционная система? 0=iOS или 1=Android');
+let clientDeviceYear = prompt('Год выпуска вашего телефона');
+switch (clientOS) {
+  case '0':
+    if (clientDeviceYear < 2015){alert ('Установите облегченную версию приложения для iOS по ссылке');}
+    else {alert('Установите версию приложения для iOS по ссылке');}
+    break;
+  case '1':
+    if (clientDeviceYear < 2015){alert ('Установите облегченную версию приложения для Android по ссылке');}
+    else {alert('Установите версию приложения для Android по ссылке');}  
+    break;
+  default: console.log ('Не поддерживаемая операционная система');
+    break;  
+}
