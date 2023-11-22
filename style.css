@@ -95,8 +95,10 @@ body {font-family: "Montserrat", sans-serif;
         }
       .seasons_video_game{
         grid-column: span 5;
-        }
-      .seasons_video_box{padding: 233px 116px 233px 0;
+        width: 485px;
+        height: 333px;
+                }
+      .seasons_video_box{
         background-image: url(img/video_game.svg);
         background-repeat: no-repeat;
         }
@@ -121,4 +123,56 @@ body {font-family: "Montserrat", sans-serif;
         font-weight: 400;}
         .seasons_button:hover{background: #EB443F;
           text-decoration: none;}
-        
+
+
+.words{height: 800px;
+      background-color: #000915;
+      background-position: top;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      display: grid;
+      gap: 32px;
+      grid-template-columns: repeat(12, 1fr);
+    }
+  .words_block{ 
+    padding: 282px 116px 282px 0;
+    grid-column: span 6;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+        }
+.words_video_game{grid-column: span 6;
+  width: 481px;
+height: 322px;
+flex-shrink: 0;
+margin-left: 120px;}
+.words_video_box{
+  background-image: url(img/draw_words.svg);
+  background-repeat: no-repeat;
+  }          
+.words_title{ color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;} 
+.words_text{
+  width: 580px;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;}
+.words_button{width: 234.063px;
+  height: 48.603px;
+  border-radius: 30px;
+  background: #9C0332;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;}
+  .words_button:hover{background: #EB443F;
+    text-decoration: none;}          
