@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./script.js"></script>
     <title>Homework1</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -33,7 +32,7 @@
     <div class="seasons_block">
      <h1 class="seasons_title">Времена года!</h1>
      <p class="seasons_text"> Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
-     <button class="seasons_button">Играть!</button>
+     <button onclick="alert(getSeasons(prompt('Введите число:')));" class="seasons_button">Играть!</button>
     </div> 
     <div class="seasons_video_box seasons_video_game"> </div>
 </section>
@@ -45,5 +44,16 @@
         <button class="words_button">Играть</button>
     </div> 
 </section>
+<section class="riddle center">
+    <div class="riddle_block">
+     <h1 class="riddle_title">Игра в загадки</h1>
+     <p class="riddle_text">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+     <button class="riddle_button">Играть!</button>
+    </div> 
+    </section>
+    <script src="./script.js"></script>
 </body>
 </html> 
+<footer class="rights center">
+<p class="rights_text">Все права защищены</p>
+</footer>
