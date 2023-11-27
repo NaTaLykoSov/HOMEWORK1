@@ -1,33 +1,34 @@
 @media(max-width: 767px){
+    
     .center{padding-left: 16px;
             padding-right: 16px;}
     .header{height: 735px;
         background-position: 30%;}    
     .header_title{display: flex;
-        width: 343px;
+        width: 100%;
         flex-direction: column;
         justify-content: center;
         font-size: 32px;
         text-align: center;
         font-style: normal;
-        font-weight: 700;
-        }
-    .header-text{font-size: 14px;
+            }
+   .header-text{font-size: 14px;
+        width: 100%;
         text-align: center;
         line-height: 22px;
-        width: 343px;} 
-    .header-block{padding: 239px 0 0 0;}
-    .header-button{
-        margin-top: 32px;
-        margin-left: 55px;}
+        } 
+    .header-block{padding: 239px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;}
+   
     .game_box{margin-left: 0;
         display: flex;
         flex-direction: column;}
-    .game_picture_img{width: 343px;}
+    .game_picture_img{width: 100%;}
     .seasons{height: 655px;
-        justify-content: space-between;
-        grid-template-columns: repeat(5, 1fr);
-        gap: 0;
+        display: flex;
+        flex-direction: column;
       }
     .seasons_title{ 
         font-size: 32px;
@@ -36,16 +37,13 @@
     .seasons_text{
     font-size: 14px;
     line-height: 22px;
-    width: 340px;
+    width: 100%;
     text-align: center;}
-    .seasons_block{ padding: 0;
-        margin-top: 51px;
-        display: flex;
-        flex-direction: column;
+    .seasons_block{display: flex;
         align-items: center;
-        gap: 32px;
-        width: 343px;}
-    .seasons_video_box{padding: 243px 243px 0;
+        width: 100%;
+        margin-top: 51px;}
+    .seasons_video_box{width: 100%;
             background-image: url(img/video_game_mob.svg);
             background-repeat: no-repeat;
             margin-top: 64px;
@@ -64,18 +62,39 @@
     .words_text{text-align: center;
         font-size: 14px;
         line-height: 22px;
-        width: 343px; 
-        }
+        width: 100%; 
+                }
         .words{height: 654px;
-            justify-content: space-between;
-        grid-template-columns: repeat(5, 1fr);
-            
-            }
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column-reverse;
+                }
         .words_block{padding: 0;
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 32px;
-              }
-    
+            margin-top: 51px;
+                }
+.riddle{display: flex;
+        flex-direction: column;
+    }
+.riddle_block{display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 0;
+    margin-top: 140px;}
+.riddle_title{text-align: center;
+                font-size: 32px;}
+.riddle_text{width: 100%;
+    font-size: 14px;
+    line-height: 22px;}
+.rights{display: flex;
+    flex-direction: column;
+    justify-content: center;}
+.rights_text{font-size: 12px;
+    padding: 0;}
     }
