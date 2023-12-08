@@ -12,3 +12,21 @@ function getSeasons(month){
     }
 }
 //alert(getSeasons(prompt("Введите число:")));
+
+function words(){
+    let wordsChoice = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    wordsChoice = wordsChoice.sort(() => Math.random() - 0.5);
+    alert (wordsChoice);
+    let firstWord = prompt("Какое было первое слово?");
+    let lastWord = prompt("Какое было последнее слово?");
+    
+    if((firstWord === wordsChoice[0]) && (lastWord === wordsChoice[6])){
+        alert("Супер! Вы победили!");
+    }
+    else if ((firstWord === wordsChoice[0]) || (lastWord === wordsChoice[6])){
+        alert("Вы были близки к победе!");
+    } else {
+        alert("Вы ответили не верно(((")
+    }
+}
+//words();
