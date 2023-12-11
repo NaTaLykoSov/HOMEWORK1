@@ -42,7 +42,8 @@
     .seasons_block{display: flex;
         align-items: center;
         width: 100%;
-        margin-top: 51px;}
+        margin-top: 51px;
+        margin-left: 0;}
     .seasons_video_box{width: 100%;
             background-image: url(img/video_game_mob.svg);
             background-repeat: no-repeat;
@@ -86,7 +87,8 @@
     justify-content: center;
     gap: 32px;
     padding: 0;
-    margin-top: 140px;}
+    margin-top: 140px;
+    margin-left: 0;}
 .riddle_title{text-align: center;
                 font-size: 32px;}
 .riddle_text{width: 100%;
@@ -96,5 +98,6 @@
     flex-direction: column;
     justify-content: center;}
 .rights_text{font-size: 12px;
-    padding: 0;}
+    padding: 0;
+    margin-left: 0;}
     }
